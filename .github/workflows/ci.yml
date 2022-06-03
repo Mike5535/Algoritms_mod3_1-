@@ -12,7 +12,7 @@ jobs:
     - run: sudo apt-get install -y libgmock-dev
     - run: cmake .
     - run: make
-    - run: ./tests
+    - run: ./test
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
       with:
