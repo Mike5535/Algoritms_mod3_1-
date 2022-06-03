@@ -10,7 +10,7 @@ jobs:
     - run: sudo apt-get install -y google-mock
     - run: sudo apt-get install -y libgtest-dev
     - run: sudo apt-get install -y libgmock-dev
-    - run: cmake 
+    - run: cmake .
     - run: make
     - run: ./tests
     - name: Upload artifacts
